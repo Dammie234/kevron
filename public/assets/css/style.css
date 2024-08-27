@@ -1,0 +1,213 @@
+
+
+.text-black {
+    color: #000;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.page-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.book-now-btn:hover {
+    background-color: m;
+    color: #fff;
+    padding: 8px 28px;
+}
+
+.single-event-description ol li,
+.single-event-description ul li {
+    margin: 10px 0px;
+    line-height: 25px;
+}
+
+.single-preview-img {
+    margin: 20px 0px;
+}
+
+.key_information {
+    width: 100%;
+    padding: 50px 0px;
+    background-color: beige;
+}
+
+.primary-color {
+    color: #291770;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.line {
+    border-top: 2px solid #291770;
+    width: 100px;
+}
+
+.media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.media-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.current {
+    color: #291770;
+    font-weight: bold;
+}
+
+.py-80 {
+    padding: 80px 0px;
+}
+
+.unstyled {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.unstyled a {
+    text-decoration: none;
+}
+
+.list-inline {
+    overflow: hidden;
+}
+
+.list-inline li {
+    float: left;
+}
+
+.sidebar-header {
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: #56B4D9;
+}
+
+.sidebar-logo {
+    text-transform: lowercase;
+    font: 300 2em "Source Sans Pro", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-logo a {
+    display: block;
+    padding: 1em 0;
+    color: #fff;
+    text-decoration: none;
+    transition: .15s linear color;
+}
+
+.sidebar-logo a:hover {
+    color: #fff;
+}
+
+.sidebar-logo span {
+    color: #291770;
+}
+
+.sidebar-logo span {
+    font-weight: 700;
+    transition: .15s linear color;
+}
+
+.main-nav ul {
+    border-top: solid 1px #291770;
+}
+
+.main-nav li {
+    border-bottom: solid 1px #291770;
+}
+
+.main-nav a,
+.main-nav router-link {
+    padding: 1.1em 0;
+    color: #fff;
+    font: 400 1.125em "Source Sans Pro", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.h4 {
+    font-size: 20px !important;
+}
+
+.icofont-thin-double-right {
+    color: #291770 !important;
+}
+
+.current {
+    border-right: solid 5px #291770;
+    background: #53458c;
+}
+
+.main-nav a:hover,
+.main-nav router-link:hover {
+    color: #fff;
+}
+
+
+.list-hover-slide li {
+    position: relative;
+    overflow: hidden;
+}
+
+.list-hover-slide a,
+.list-hover-slide router-link {
+    display: block;
+    position: relative;
+    z-index: 1;
+    transition: .35s ease color;
+}
+
+.list-hover-slide a:before,
+.list-hover-slide router-link:before {
+    content: '';
+    display: block;
+    z-index: -1;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-right: solid 5px #291770;
+    background: #53458c;
+    transition: .35s ease left;
+}
+
+.list-hover-slide a.is-current:before,
+.list-hover-slide a:hover:before {
+    left: 0;
+}
